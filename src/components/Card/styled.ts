@@ -11,7 +11,7 @@ export const CardProject = styled.div`
 
   .image {
     width: 100%;
-    flex: 1;
+    flex: 3;
     img {
       width: 100%;
       max-width: 450px;
@@ -23,7 +23,7 @@ export const CardProject = styled.div`
     }
   }
   .info {
-    flex: 2;
+    flex: 4;
   }
   .top {
     display: flex;
