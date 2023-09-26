@@ -8,6 +8,7 @@ import GlobalStyle from "./styles/global"
 import usePersistedState from "./hooks/usePersistedState";
 
 // Components
+import Header from "./components/Header";
 
 // Sections
 
@@ -19,10 +20,11 @@ function App() {
     setTheme(theme.title === "light" ? dark : light);
     setChecked(checked === false ? true : false);
   }
-  
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <Header toggleTheme={toggleTheme} checked={checked}/>
     </ThemeProvider>
   )
 }
