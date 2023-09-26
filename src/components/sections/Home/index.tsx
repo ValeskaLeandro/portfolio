@@ -12,7 +12,7 @@ import { LiaCheckDoubleSolid } from "react-icons/lia";
 import { GoPaperAirplane } from "react-icons/go";
 import { FaLocationDot } from "react-icons/fa6";
 
-const Home = () => {
+export default function Home ()  {
   return(
     <HomeSection id="home" className="container">
       <div className="content">
@@ -57,5 +57,3 @@ const Home = () => {
     </HomeSection>
   )
 }
-
-export default Home

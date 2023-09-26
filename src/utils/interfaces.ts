@@ -11,6 +11,12 @@ export interface IMainButton {
   link: string
 }
 
+export interface ITitle {
+  title: string,
+  subtitle: string,
+  classname: string
+}
+
 export interface ICard {
   id: number,
   name: string,
@@ -23,4 +29,9 @@ export interface ICard {
 
 export interface IProjects {
   projects: ICard[]
+}
+
+export interface IAlert {
+  text: string;
+  classname?: string
 }
