@@ -9,6 +9,7 @@ import usePersistedState from "./hooks/usePersistedState";
 
 // Components
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 // Sections
 
@@ -25,6 +26,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Header toggleTheme={toggleTheme} checked={checked}/>
+      <Main />
     </ThemeProvider>
   )
 }
