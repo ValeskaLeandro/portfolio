@@ -40,7 +40,7 @@ const Home = () => {
             </span>
           </div>
           <div className="button">
-            <MainButton text="Vamos trabalhar juntos" icon={GoPaperAirplane}/>
+            <MainButton text="Vamos trabalhar juntos" icon={GoPaperAirplane} link="#contact"/>
           </div>
         </div>
         <div className="rigth-content">

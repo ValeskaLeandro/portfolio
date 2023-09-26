@@ -1,14 +1,12 @@
 // Styles
 import { Link } from "./styled";
 
-interface ButtonProps {
-  text: string,
-  icon?: React.ElementType
-}
+// Interfaces
+import { IMainButton } from "../../utils/interfaces";
 
-export default function MainButton({text, icon: Icon}: ButtonProps) {
+export default function MainButton({text, icon: Icon, link}: IMainButton) {
   return(
-    <Link href="">{text} {Icon ? (
+    <Link href={link}>{text} {Icon ? (
     <span className="icon">
       <Icon />
     </span>
