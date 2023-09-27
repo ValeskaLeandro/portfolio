@@ -5,6 +5,10 @@ export interface IButtonChangeTheme {
   checked: boolean
 }
 
+export interface ILogo {
+  footer?: boolean
+}
+
 export interface IMainButton {
   text: string,
   icon?: React.ElementType,
