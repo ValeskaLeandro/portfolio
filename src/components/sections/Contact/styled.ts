@@ -1,9 +1,5 @@
 import styled from "styled-components"
 
-export const ContactSection = styled.section`
-  
-`
-
 export const ContactForm = styled.div`
   width: 100%;
   display: flex;
@@ -62,15 +58,29 @@ export const ContactForm = styled.div`
     padding: 0 .2rem;
     color: ${props => props.theme.colors.primaryColor};
   }
+
   .contacts {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     margin-bottom: 2rem;
     max-width: 100%;
-
     h2 {
       font-size: 2rem;
+      color: ${props => props.theme.colors.title};
+      @media (max-width: 998px) {
+        font-size: 1.6rem;  
+      }
+    }
+    .titles {
+      margin-bottom: 2rem;
+      p {
+        font-size: 1.6rem;
+        
+        @media (max-width: 998px) {
+          font-size: 1.2rem;  
+        }
+      }
     }
     a {
       width: 100%;

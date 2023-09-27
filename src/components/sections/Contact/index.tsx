@@ -1,5 +1,5 @@
 // Styles
-import { ContactSection, ContactForm, ButtonForm } from "./styled";
+import { ContactForm, ButtonForm } from "./styled";
 
 // Components
 import Title from "../../Title";
@@ -40,11 +40,15 @@ export default function Contact () {
       }
     }
   return(
-    <ContactSection className="container">
+    <section className="container" id="contact">
       <Title title="Vamos conversar?" subtitle="<Contact/>" classname="start"/>
       <ContactForm>
           <div className="contacts">
-            <h2>Entre em contato.</h2>
+            <div className="titles">
+              <h2>Entre em contato.</h2>
+              <p>Conta pra mim, como eu posso te ajudar?</p>
+            </div>
+            <h2>Você também pode me encontrar por aqui: </h2>
             <a href="mailto:valeskaleandrodev@gmail.com"><AiOutlineMail /> valeskaleandrodev@gmail.com</a>
             <a href="https://www.linkedin.com/in/valeskaleandro/" target="_blank">
               <AiFillLinkedin /> /in/valeskaleandro
@@ -77,6 +81,6 @@ export default function Contact () {
             } classname={error === true ? 'error' : ''}/>
           }
         </ContactForm>
-    </ContactSection>
+    </section>
   )
 }

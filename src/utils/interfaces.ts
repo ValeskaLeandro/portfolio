@@ -39,3 +39,11 @@ export interface IAlert {
   text: string;
   classname?: string
 }
+
+export interface ISkills {
+  skills: IconType[]
+}
+
+export interface ISkillIcon {
+  skill: IconType
+}

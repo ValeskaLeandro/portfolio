@@ -1,7 +1,8 @@
-import { SiStyledcomponents } from "react-icons/si";
 import { TbBrandVite } from "react-icons/tb";
-import { SiCssmodules, SiTypescript, 
-        SiReact, SiJavascript } from "react-icons/si";
+import { DiSass } from "react-icons/di";
+import { SiHtml5, SiCss3, SiCssmodules, SiTailwindcss, SiStyledcomponents, 
+  SiBootstrap, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiPython, SiGit, 
+  SiGithub, SiBitbucket, SiMysql } from "react-icons/si";
 
 export const projects = [
   {
@@ -45,8 +46,12 @@ export const projects = [
     name: "Portfólio",
     description: "Projeto pessoal com objetivo minhas habilidades com desenvolvedora front-end e, por suposto, digulgar meu trabalho de forma limpa e profissional.",
     code: "https://github.com/ValeskaLeandro/portfolio",
-    deploy: "https://valeskaleandro.github.io/puppies-petshop/",
+    deploy: "https://valeskaleandro.vercel.app/",
     tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiTypescript],
     img: "./projects/portfolio.png"
   },
 ]
+
+export const skills = [SiHtml5, SiCss3, SiCssmodules, SiTailwindcss, DiSass, 
+  SiStyledcomponents, SiBootstrap, SiJavascript, SiTypescript, SiReact, SiNextdotjs,  
+  SiPython, SiGit, SiGithub, SiBitbucket, SiMysql]
