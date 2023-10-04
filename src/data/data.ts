@@ -55,7 +55,7 @@ export const projects = [
     id: 105,
     name: "Huddle",
     description: "Landing Page desenvolvida com o objetivo de aprofundar os conhecimentos em TaildwindCSS como resolução para desafio do site front-end mentor. Totalmente responsiva.",
-    code: "https://github.com/ValeskaLeandro/portfolio",
+    code: "https://github.com/ValeskaLeandro/huddle-tailwindcss",
     deploy: "https://huddle-nine-tau.vercel.app/",
     tecnologys: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
     img: "./projects/huddle.png"
