@@ -1,4 +1,5 @@
 import { TbBrandVite } from "react-icons/tb";
+import { AiFillApi } from "react-icons/ai";
 import { DiSass } from "react-icons/di";
 import { SiHtml5, SiCss3, SiCssmodules, SiTailwindcss, SiStyledcomponents, 
   SiBootstrap, SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiPython, SiGit, 
@@ -38,7 +39,7 @@ export const projects = [
     description: "Este projeto é uma web page com a apresentação e descrição de vários filmes. Para os dados foram feitas requisições a TMDB API. A página conta com responsidade, mecanismo de busca por nome, páginas de melhores filme, filme populares, recentes, em cartaz, página de detalhe dos filmes e filmes separados por gênero.",
     code: "https://github.com/ValeskaLeandro/themovies-tmdb",
     deploy: "https://themoviesvls.vercel.app/",
-    tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiJavascript],
+    tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiJavascript, AiFillApi],
     img: "./projects/themovie.png"
   },
   {
@@ -53,7 +54,7 @@ export const projects = [
   {
     id: 105,
     name: "Huddle",
-    description: "Landing Page desenvolvida com o objetivo de aprofundar os conhecimento em TaildwindCSS como resolução para desafio do site front-end mentor. Totalmente responsiva.",
+    description: "Landing Page desenvolvida com o objetivo de aprofundar os conhecimentos em TaildwindCSS como resolução para desafio do site front-end mentor. Totalmente responsiva.",
     code: "https://github.com/ValeskaLeandro/portfolio",
     deploy: "https://huddle-nine-tau.vercel.app/",
     tecnologys: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
