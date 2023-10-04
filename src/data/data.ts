@@ -50,6 +50,15 @@ export const projects = [
     tecnologys: [SiReact, TbBrandVite, SiStyledcomponents, SiTypescript],
     img: "./projects/portfolio.png"
   },
+  {
+    id: 105,
+    name: "Huddle",
+    description: "Landing Page desenvolvida com o objetivo de aprofundar os conhecimento em TaildwindCSS como resolução para desafio do site front-end mentor. Totalmente responsiva.",
+    code: "https://github.com/ValeskaLeandro/portfolio",
+    deploy: "https://huddle-nine-tau.vercel.app/",
+    tecnologys: [SiNextdotjs, SiReact, SiTypescript, SiTailwindcss],
+    img: "./projects/huddle.png"
+  },
 ]
 
 export const skills = [SiHtml5, SiCss3, SiCssmodules, SiTailwindcss, DiSass, 
